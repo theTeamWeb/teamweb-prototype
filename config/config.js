@@ -9,7 +9,7 @@ var config = {
       name: 'theteamweb'
     },
     port: process.env.PORT || 8282,
-    db: 'mysql://root@localhost/theteamweb'
+    db: 'mysql://root:aaaa0987@localhost/theteamweb'
   },
 
   test: {
@@ -18,7 +18,7 @@ var config = {
       name: 'theteamweb'
     },
     port: process.env.PORT || 8282,
-    db: 'mysql://localhost/theteamweb-test'
+    db: 'mysql://root@localhost/theteamweb-test'
   },
 
   production: {
@@ -27,7 +27,7 @@ var config = {
       name: 'theteamweb'
     },
     port: process.env.PORT || 3000,
-    db: 'mysql://localhost/theteamweb-production'
+    db: 'mysql://root@localhost/theteamweb-production'
   }
 };
 
